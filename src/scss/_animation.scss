@@ -1,0 +1,206 @@
+// mixins
+
+@mixin transform($num) {
+    -moz-transform: translateY($num);
+    -ms-transform: translateY($num);
+    -webkit-transform: translateY($num);
+    transform: translateY($num);
+}
+@mixin transformx($x) {
+    -moz-transform: translatex($x);
+    -ms-transform: translatex($x);
+    -webkit-transform: translatex($x);
+    transform: translatex($x);
+}
+@mixin transforms($s) {
+    -moz-transform: scale($s);
+    -ms-transform: scale($s);
+    -webkit-transform: scale($s);
+    transform: scale($s);
+}
+
+
+
+
+
+.nav-link:hover{
+    -moz-animation: arrow-move3 2s infinite;
+    -webkit-animation: arrow-move3 2s infinite;
+    animation: arrow-move3 2s infinite;
+}
+
+ul .nav-item:hover{
+    .text-secondary{
+        color: #fff !important;
+    }
+    .nav-item{
+        -moz-animation: arrow-move 1s infinite;
+        -webkit-animation: arrow-move 1s infinite;
+        animation: arrow-move 1s infinite;
+    }
+}
+
+.main-hs:hover{
+    -moz-animation: 2s ease-out 0s 1 head ;
+    -webkit-animation: 2s ease-out 0s 1 head ;
+	animation: 2s ease-out 0s 1 head ;
+}
+
+.arrow2{
+    -moz-animation: arrow-move2 2s infinite;
+    -webkit-animation: arrow-move2 2s infinite;
+	animation: arrow-move2 2s infinite;
+}
+
+nav{
+    -moz-animation: 2s ease-out 0s 1 navmove ;
+    -webkit-animation: 2s ease-out 0s 1 navmove ;
+	animation: 2s ease-out 0s 1 navmove ;
+}
+.pencil-para{
+     -moz-animation: 2s ease-out 0s 1 navmove ;
+    -webkit-animation: 2s ease-out 0s 1 navmove ;
+	animation: 2s ease-out 0s 1 navmove ;
+}
+
+.pencil-icons{
+     -moz-animation: 1s ease-out 0s 1 navmovey ;
+    -webkit-animation: 1s ease-out 0s 1 navmovey ;
+	animation: 1s ease-out 0s 1 navmovey ;
+}
+
+.div-right:hover , .div-left:hover{
+    @include  transforms(1.2);
+    .bg-div{
+        background-color: $blue;
+        color: #fff;
+        .font-grey{
+            color: #fff;
+        }
+    }
+ 
+}
+
+.div-right{
+     -moz-animation: 1s ease-out 0s 1 navmoveyy ;
+    -webkit-animation: 1s ease-out 0s 1 navmoveyy ;
+	animation: 1s ease-out 0s 1 navmoveyy ;
+}
+
+.div-left{
+     -moz-animation: 1s ease-out 0s 1 navmovex ;
+    -webkit-animation: 1s ease-out 0s 1 navmovex ;
+	animation: 1s ease-out 0s 1 navmovex ;
+}
+
+
+
+//animation
+
+
+
+
+
+
+@keyframes head{
+  0% {
+    
+     @include  transforms(1);
+  }
+  50% {
+     @include  transforms(1.5);
+  }
+  55% {
+     @include  transforms(1);
+  }
+  60% {
+     @include  transforms(1.4);
+  }
+  100% {
+     @include  transforms(1);
+  }
+}
+
+@keyframes navmovex {
+  0% {
+    @include transformx(-100%);
+     @include  transforms(0);
+  }
+    
+  100% {
+    @include transformx(0);
+     @include  transforms(1);
+  }
+}
+@keyframes navmoveyy {
+  0% {
+    @include transformx(100%);
+       @include  transforms(0);
+  }
+  100% {
+    @include transformx(0);
+       @include  transforms(1);
+  }
+}
+
+
+@keyframes navmove {
+  0% {
+    @include transformx(-100%)
+  }
+  100% {
+    @include transformx(0);
+  }
+}
+@keyframes navmovey {
+  0% {
+    @include transformx(100%)
+  }
+  100% {
+    @include transformx(0);
+  }
+}
+
+//arrowmove
+@keyframes arrow-move  {
+  0%, 50%, 100% {
+   @include transform(0)
+  }  
+     40% ,80% {
+    @include transform(7)
+  }
+  20% {
+    @include transform(10)
+  }
+  60% {
+    @include transform(-2)
+  }
+}
+
+@keyframes arrow-move2  {
+  0%, 20%, 50%, 80%, 100% {
+   @include transform(0)
+  }
+  40% {
+    @include transform(-30px)
+  }
+  60% {
+    @include transform(-10px)
+  }
+}
+
+@keyframes arrow-move3  {
+    0%, 50%, 100% {
+   @include transform(0)
+  }  
+     40% ,80% {
+    @include transform(20px)
+  }
+  40% {
+    @include transform(-45px)
+  }
+  60% {
+    @include transform(-5px)
+  }
+}
+

@@ -1,0 +1,24 @@
+.bg-footer{
+    background-color: #fefefe;
+    height: 200px;
+}
+.logo-ft-width{
+    width: 100px;
+}
+.p-footer{
+    margin-bottom: 0.7rem;
+}
+.footer-line-h{
+    line-height: 1.7rem;
+}
+.ft-img-h{
+    height: 35px;
+}
+
+//queries
+
+@media screen and (max-width: 600px) {
+    .logo-ft-width{
+        width: auto;
+    }
+}

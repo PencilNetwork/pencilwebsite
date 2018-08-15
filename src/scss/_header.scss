@@ -1,0 +1,32 @@
+.bg-nav{
+    background-color: rgba(0,0,0,0.4);
+}
+.border-btm-main{
+    border-bottom: solid 10px #ffde31;
+}
+.postion-z-index{
+    z-index: 1
+}
+.nav-pills .nav-link {
+    color: $mid-grey 
+}
+.tab-content .tab-pane{
+     color: $mid-grey 
+}
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 9px !important;
+    height: 9px !important
+}
+.carousel-indicators .active {
+    background-color: rgba(255,222,49,0.7) !important;
+}
+
+
+
+
+//media queries
+
+@media screen and (max-width: 600px) {
+   
+}

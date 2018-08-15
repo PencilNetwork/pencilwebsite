@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    cursor: url(../../dist/imgs/home/logo.png), auto;	
+}
+
+.py-6{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1190px !important;
+    }
+    .py-6{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width: 800px){
+    .py-6{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+

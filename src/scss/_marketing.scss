@@ -1,0 +1,35 @@
+//bg
+.bg-marketing{
+    background-image: url(../../dist/imgs/home/market-img-only.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 425px;
+}
+.txt-pos-marketing{
+    left: 43%;
+    top: 50%;
+}
+iframe{
+    width: 100%;
+    height: 750px;
+    border: 0;
+}
+
+
+
+
+
+//queris
+@media screen and (max-width: 600px) {
+  .bg-marketing{
+    height: 200px;
+      width: auto;
+    }
+  .txt-pos-marketing{
+    left: 32%;
+    top: 47%;
+    }
+iframe{
+    height: 200px;
+    }
+}

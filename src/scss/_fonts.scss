@@ -1,0 +1,57 @@
+.pams-hand-font{
+    font-family: $font_pams_hand
+}
+.moon-2-font{
+    font-family: $font_Moon_2
+}
+.moon-light-font{
+    font-family: $font_Moon_light
+}
+.moon-bold-font{
+    font-family: $font_Moon_bold
+}
+
+
+
+//sizes
+
+.font-2{
+    font-size: 1.1rem;
+}
+.font-3{
+    font-size: 1.4rem;
+}
+.font-4{
+    font-size: 2.5rem;
+}
+.font-6{
+    font-size: 5rem;
+}
+
+
+
+
+//color
+.font-grey{
+    color: $grey;
+}
+.font-grey-dark{
+    color: $grey-dark;
+}
+
+
+
+
+//media queries
+
+@media screen and (max-width: 600px) {
+   .font-3{
+        font-size: 1rem;
+    }
+   .font-4{
+        font-size: 1.4rem;
+    }
+   .font-6{
+    font-size: 2.5rem;
+    }
+}

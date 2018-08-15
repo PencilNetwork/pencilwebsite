@@ -1,0 +1,88 @@
+@mixin box-shadow($top, $left, $blur, $color) {
+
+      -webkit-box-shadow:$top $left $blur $color ;
+      -moz-box-shadow:$top $left $blur $color ;
+      box-shadow:$top $left $blur $color;
+}
+
+
+//background imgs
+
+.bg-img-scratch{
+    background-image: url(../../dist/imgs/home/scratch.png);
+    background-size: cover;
+    height: 250px;
+}
+.bg-div{
+    height: 350px;
+    @include box-shadow(0px, 7px, 6px, rgba(0, 0, 0, 0.13));
+
+}
+.bg-dev-comman{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.bg-dev-1{
+    background-image: url(../../dist/imgs/home/carlos-muza.png);
+    @extend .bg-dev-comman;
+}
+.bg-dev-2{
+    background-image: url(../../dist/imgs/home/soft-dev-img-2.png);
+    @extend .bg-dev-comman;
+//    float: right;
+}
+.bg-dev-3{
+    background-image: url(../../dist/imgs/home/soft-dev-img-3.png);
+    @extend .bg-dev-comman;
+}
+
+
+
+
+.border-height-comman{
+    top: 0;
+    height: inherit;
+}.border-height-l{
+    left: 0;
+    @extend .border-height-comman;
+}
+.border-height-r{
+    right: 0;
+     @extend .border-height-comman;
+}
+
+
+    
+.d-none-small{
+        display: none !important;
+    }
+
+
+
+//media queries
+
+@media screen and (max-width: 820px) {
+    .bg-img-scratch{
+        height: 120px;
+    }
+    .d-none-small{
+        display: block !important;
+    }
+    .d-large{
+        display: none !important;
+    }
+    .img-auto-md{
+        display: block;
+        margin: auto;
+
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .bg-img-scratch{
+        height: 100px;
+    }
+}
