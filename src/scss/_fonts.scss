@@ -15,6 +15,9 @@
 
 //sizes
 
+.font-1{
+    font-size: 0.95rem;
+}
 .font-2{
     font-size: 1.1rem;
 }
@@ -45,7 +48,10 @@
 //media queries
 
 @media screen and (max-width: 600px) {
-   .font-3{
+   .font-1{
+        font-size: 0.7rem;
+    }
+    .font-3{
         font-size: 1rem;
     }
    .font-4{

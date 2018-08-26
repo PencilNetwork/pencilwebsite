@@ -9,6 +9,19 @@ body {
     padding-bottom: 2rem;
 }
 
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
 @media (min-width: 1200px){
     .container {
         max-width: 1190px !important;
@@ -17,12 +30,29 @@ body {
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
 }
 
 @media (max-width: 800px){
     .py-6{
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
     }
 }
 

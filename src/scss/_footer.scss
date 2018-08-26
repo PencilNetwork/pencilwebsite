@@ -21,4 +21,19 @@
     .logo-ft-width{
         width: auto;
     }
+    
+    .ft-img-h{
+        height: 65px;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .logo-ft-width{
+        width: auto;
+    }
+    
+    .ft-img-h{
+        height: 100px;
+    }
+
 }
