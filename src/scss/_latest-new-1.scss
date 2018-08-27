@@ -1,0 +1,59 @@
+.bg-latest-news{
+    background-image: url(../../dist/imgs/latest-news/latest-news-hr.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 750px;
+}
+.overlay-img-gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.9));
+}
+.partener-txt{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    p{
+        max-width: 90%;
+    }
+}
+.partener-txt-sm{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    p{
+        max-width: 95%;
+        max-height: 15%
+    }
+}
+.img-overlay {
+    position: relative; 
+//    height: auto;
+}
+.new-client{
+    .carousel-indicators li{
+        background-color: rgba(0,0,0,0.2);
+    }
+}
+.sponsors{
+    background-color: $blue;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .bg-latest-news{
+    height: 200px;
+      width: auto;
+    }
+    
+ 
+}

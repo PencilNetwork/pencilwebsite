@@ -15,6 +15,9 @@
 
 //sizes
 
+.font-0{
+    font-size: 0.7rem;
+}
 .font-1{
     font-size: 0.95rem;
 }
@@ -35,6 +38,9 @@
 
 
 //color
+.font-grey-light{
+    color: $light-grey;
+}
 .font-grey{
     color: $grey;
 }
@@ -48,8 +54,14 @@
 //media queries
 
 @media screen and (max-width: 600px) {
+   .font-0{
+        font-size: 0.4rem;
+    }
    .font-1{
         font-size: 0.7rem;
+    }
+    .font-2{
+        font-size: 0.8rem;
     }
     .font-3{
         font-size: 1rem;
@@ -59,5 +71,26 @@
     }
    .font-6{
     font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 840px) {
+   .font-0{
+        font-size: 0.55rem;
+    }
+   .font-1{
+        font-size: 0.8rem;
+    }
+    .font-2{
+        font-size: 0.95rem;
+    }
+    .font-3{
+        font-size: 1.2rem;
+    }
+   .font-4{
+        font-size: 1.7rem;
+    }
+   .font-6{
+    font-size: 3.5rem;
     }
 }
