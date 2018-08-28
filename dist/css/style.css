@@ -681,6 +681,51 @@ nav {
     height: 200px;
     width: auto; } }
 
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%; }
+
+3 4 #theMap iframe {
+  height: 100%;
+  width: 100%; }
+
+.border-light-1 {
+  border-color: #aeaeae; }
+
+.border-left-md {
+  border-left: 4px solid #ffde31;
+  padding-right: 2rem; }
+
+.border-right-md {
+  border-right: 4px solid #ffde31;
+  height: auto; }
+
+.image-cropper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%; }
+
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: 0;
+  height: 100%;
+  width: auto; }
+
+.flip-img {
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); }
+
+@media screen and (max-width: 605px) {
+  .image-cropper {
+    width: 80px;
+    height: 80px; } }
+
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

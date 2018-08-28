@@ -1,0 +1,67 @@
+  /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+
+
+3
+4
+#theMap iframe {
+ height: 100%;
+ width: 100%;
+}
+.border-light-1{
+    border-color: $mid-grey;
+}
+.border-left-md{
+    border-left: 4px solid $secondary;
+    padding-right: 2rem;
+}
+//.border-long-left{
+//    border-right: 100px solid $secondary;
+////    padding-right: 2rem;
+//}
+.border-right-md{
+    border-right: 4px solid $secondary;
+   height: auto;
+}
+.image-cropper {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: 0; //centers the image
+  height: 100%;
+  width: auto;
+}
+
+.flip-img {
+    @include  transformsX(-1);
+}
+
+
+
+
+//queris
+
+@media screen and (max-width: 605px) {
+    .image-cropper {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+    
