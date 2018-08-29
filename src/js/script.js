@@ -2,42 +2,42 @@ $(document).ready(function(){
     
     $("#pills-home-tab").click(function(){
         $('#pills-home-tab-img').attr("src","dist/imgs/home/pencil-logo-wt.png");
-        $('#pills-Vision-tab-img').attr("src","dist/imgs/home/vision-gr.png");
-        $('#pills-mission-tab-img').attr("src","dist/imgs/home/mission-gr.png");
-        $('#pills-startup-tab-img').attr("src","dist/imgs/home/startup-gr.png");
-        $('#pills-marketing-tab-img').attr("src","dist/imgs/home/collaborative-marketing-gr.png");
+        $('#pills-Vision-tab-img').attr("src","dist/imgs/home/vision.png");
+        $('#pills-mission-tab-img').attr("src","dist/imgs/home/mission.png");
+        $('#pills-startup-tab-img').attr("src","dist/imgs/home/startup.png");
+        $('#pills-marketing-tab-img').attr("src","dist/imgs/home/colbrative-marketing.png");
         
     }); 
     $("#pills-Vision-tab").click(function(){
         $('#pills-home-tab-img').attr("src","dist/imgs/home/pencil-logo-bk.png");
-        $('#pills-Vision-tab-img').attr("src","dist/imgs/home/vision-wt.png");
-        $('#pills-mission-tab-img').attr("src","dist/imgs/home/mission-gr.png");
-        $('#pills-startup-tab-img').attr("src","dist/imgs/home/startup-gr.png");
-        $('#pills-marketing-tab-img').attr("src","dist/imgs/home/collaborative-marketing-gr.png");
+        $('#pills-Vision-tab-img').attr("src","dist/imgs/home/vision-copy.png");
+        $('#pills-mission-tab-img').attr("src","dist/imgs/home/mission.png");
+        $('#pills-startup-tab-img').attr("src","dist/imgs/home/startup.png");
+        $('#pills-marketing-tab-img').attr("src","dist/imgs/home/colbrative-marketing.png");
         
     }); 
     $("#pills-mission-tab").click(function(){
         $('#pills-home-tab-img').attr("src","dist/imgs/home/pencil-logo-bk.png");
-        $('#pills-Vision-tab-img').attr("src","dist/imgs/home/vision-gr.png");
-        $('#pills-mission-tab-img').attr("src","dist/imgs/home/mission-wt.png");
-        $('#pills-startup-tab-img').attr("src","dist/imgs/home/startup-gr.png");
-        $('#pills-marketing-tab-img').attr("src","dist/imgs/home/collaborative-marketing-gr.png");
+        $('#pills-Vision-tab-img').attr("src","dist/imgs/home/vision.png");
+        $('#pills-mission-tab-img').attr("src","dist/imgs/home/mission-copy.png");
+        $('#pills-startup-tab-img').attr("src","dist/imgs/home/startup.png");
+        $('#pills-marketing-tab-img').attr("src","dist/imgs/home/colbrative-marketing.png");
         
     }); 
     $("#pills-startup-tab").click(function(){
         $('#pills-home-tab-img').attr("src","dist/imgs/home/pencil-logo-bk.png");
-        $('#pills-Vision-tab-img').attr("src","dist/imgs/home/vision-gr.png");
-        $('#pills-mission-tab-img').attr("src","dist/imgs/home/mission-gr.png");
-        $('#pills-startup-tab-img').attr("src","dist/imgs/home/startup-wt.png");
-        $('#pills-marketing-tab-img').attr("src","dist/imgs/home/collaborative-marketing-gr.png");
+        $('#pills-Vision-tab-img').attr("src","dist/imgs/home/vision.png");
+        $('#pills-mission-tab-img').attr("src","dist/imgs/home/mission.png");
+        $('#pills-startup-tab-img').attr("src","dist/imgs/home/startup-copy.png");
+        $('#pills-marketing-tab-img').attr("src","dist/imgs/home/colbrative-marketing.png");
         
     }); 
     $("#pills-collaborative-marketing-tab").click(function(){
         $('#pills-home-tab-img').attr("src","dist/imgs/home/pencil-logo-bk.png");
-        $('#pills-Vision-tab-img').attr("src","dist/imgs/home/vision-gr.png");
-        $('#pills-mission-tab-img').attr("src","dist/imgs/home/mission-gr.png");
-        $('#pills-startup-tab-img').attr("src","dist/imgs/home/startup-gr.png");
-        $('#pills-marketing-tab-img').attr("src","dist/imgs/home/collaborative-marketing-wt.png");
+        $('#pills-Vision-tab-img').attr("src","dist/imgs/home/vision.png");
+        $('#pills-mission-tab-img').attr("src","dist/imgs/home/mission.png");
+        $('#pills-startup-tab-img').attr("src","dist/imgs/home/startup.png");
+        $('#pills-marketing-tab-img').attr("src","dist/imgs/home/colbrative-marketing-copy.png");
         
     });
     
