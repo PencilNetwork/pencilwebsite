@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  cursor: url(../../dist/imgs/home/logo.png), auto; }
+  cursor: url(../../dist/imgs/home/pencill.png), auto; }
 
 .py-6 {
   padding-top: 2rem;
@@ -231,13 +231,13 @@ iframe {
   .logo-ft-width {
     width: auto; }
   .ft-img-h {
-    height: 65px; } }
+    height: 35px !important; } }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
   .logo-ft-width {
     width: auto; }
   .ft-img-h {
-    height: 100px; } }
+    height: 70px; } }
 
 .bg-live-port {
   background-image: url(../../dist/imgs/live-port/live-port-head-bg.png);
@@ -634,6 +634,10 @@ nav {
     margin: auto; }
   .mleft-5 {
     margin-left: 3.6rem !important; }
+  .mleft-5-tx {
+    margin-left: 8rem !important; }
+  .mleft-5-tx-2 {
+    margin-left: 6rem !important; }
   .ptop-btm-5 {
     padding-top: 20px;
     padding-bottom: 20px; } }
@@ -679,7 +683,8 @@ nav {
 @media screen and (max-width: 600px) {
   .bg-latest-news {
     height: 200px;
-    width: auto; } }
+    width: auto;
+    background-size: contain; } }
 
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
