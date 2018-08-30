@@ -43,6 +43,22 @@ body {
     width: 20%;
     float: left; } }
 
+@font-face {
+  font-family: "Moon2.0-Regular";
+  src: url(../../dist/font/MOON%25202.0%2520FREE/Moon2.0-Regular.otf); }
+
+@font-face {
+  font-family: "Pam's Hand";
+  src: url(../../dist/font/pams-hand/pams_hand.ttf); }
+
+@font-face {
+  font-family: "Moon-Light";
+  src: url(../../dist/font/MOON%25202.0%2520FREE/Legacy-MOON-Files/Moon-Bold.otf); }
+
+@font-face {
+  font-family: "Moon-Bold";
+  src: url(../../dist/font/MOON%25202.0%2520FREE/Legacy-MOON-Files/Moon-Light.otf); }
+
 .pams-hand-font {
   font-family: "Pam's Hand"; }
 
@@ -133,6 +149,12 @@ body {
 .carousel-indicators .active {
   background-color: rgba(255, 222, 49, 0.7) !important; }
 
+@media screen and (max-width: 600px) {
+  .carouselExampleIndicators-h {
+    height: 350px; }
+    .carouselExampleIndicators-h img {
+      height: 350px; } }
+
 .bg-img-scratch {
   background-image: url(../../dist/imgs/home/scratch.png);
   background-size: cover;
@@ -203,13 +225,13 @@ iframe {
 
 @media screen and (max-width: 600px) {
   .bg-marketing {
-    height: 200px;
+    height: 350px;
     width: auto; }
   .txt-pos-marketing {
     left: 32%;
     top: 47%; }
   iframe {
-    height: 200px; } }
+    height: 400px; } }
 
 .bg-footer {
   background-color: #fefefe;
@@ -294,7 +316,7 @@ iframe {
 
 @media screen and (max-width: 600px) {
   .bg-live-port {
-    height: 200px;
+    height: 350px;
     width: auto; }
   .arrow-m-l {
     margin-left: 15px; }
@@ -682,7 +704,7 @@ nav {
 
 @media screen and (max-width: 600px) {
   .bg-latest-news {
-    height: 200px;
+    height: 350px;
     width: auto;
     background-size: contain; } }
 
