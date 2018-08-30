@@ -24,6 +24,9 @@
     margin-left: 55px;
     margin-top: -5px;
 }
+.liveportfolio{
+    padding-top: 3rem;
+}
 .liveportfolio .carousel-indicators {
     margin-top: 60px;
 }
@@ -54,7 +57,9 @@
 .right-minus{
     right: -10%;
 }
-
+.mt-mod-5{
+    margin-top: 3rem;
+}
 
 
 
@@ -73,10 +78,18 @@
     }
 }
 @media screen and (max-width: 820px) {
+    
+    .mt-mod-5{
+        margin-top: 0.5rem;
+    }
+    .liveportfolio{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
     .txt-pos-marketing{
-    left: 28%;
-    top: 50%;
-}
+        left: 28%;
+        top: 50%;
+    }
   .d-none-collapse{
     display: block;
     }
